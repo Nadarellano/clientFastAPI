@@ -23,12 +23,7 @@ pip install -r requirements.txt
 
 Comando para ejecutar aplicación
 ```shell
-uvicorn main:app --port 5000 --reload
-```
-
-Para revisar documentación de la API
-```shell
-localhost:5000/docs
+python client.py
 ```
 
 Comando para desactivar el entorno virtual
